@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "terminal.integrated.fontSize": 13,
+    "git.autofetch": true,
+    "git.confirmSync": false
+}

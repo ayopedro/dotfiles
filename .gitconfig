@@ -1,0 +1,33 @@
+# Create .gitconfig
+@"
+[user]
+    name = admin960084
+    email = admin@MngEnvMCAP960084.onmicrosoft.com
+
+[core]
+    editor = code --wait
+    autocrlf = input
+
+[alias]
+    # Shortcuts
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    unstage = reset HEAD --
+    
+    # Pretty logs
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    
+    # Show last commit
+    last = log -1 HEAD
+    
+    # List aliases
+    aliases = config --get-regexp alias
+
+[color]
+    ui = auto
+
+[pull]
+    rebase = false
+"@ | Out-File -FilePath .gitconfig -Encoding utf8
