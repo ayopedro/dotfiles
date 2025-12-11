@@ -24,7 +24,8 @@ backup_if_exists() {
 
 # Link dotfiles
 link_dotfile() {
-    source_file="$HOME/dotfiles/$1"
+    DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+    source_file="$DOTFILES_DIR/$1"
     target_file="$HOME/$1"
     
     if [ -f "$source_file" ]; then
