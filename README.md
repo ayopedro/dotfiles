@@ -2,6 +2,8 @@
 
 My personal development environment configuration for GitHub Codespaces.
 
+> **⚠️ Disclaimer:** This is my personal dotfiles configuration. Please review all files before using them, as they contain my preferences and may not suit your needs. Fork this repository and customize it to match your own workflow and requirements.
+
 ## 🚀 Quick Setup
 
 ### 1. Fork This Repository
